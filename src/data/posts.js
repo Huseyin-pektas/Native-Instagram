@@ -1,0 +1,172 @@
+export default [
+    
+    {
+      id: 2,
+      description: 'Yeni başlayanlar için React Native rehberi. Adım adım proje oluşturma ve temel kavramlar.',
+      date: '2024-06-03 12:30:00',
+      likes: 200,
+      comments: 45,
+      image: 'https://picsum.photos/1080/608',
+      user: {
+        name: 'Ayşe',
+        avatar: 'https://randomuser.me/api/portraits/women/1.jpg',
+      },
+    },
+    {
+      id: 3,
+      description: 'React Native ile performanslı mobil uygulamalar geliştirmek için ipuçları ve püf noktaları.',
+      date: '2024-06-04 14:00:00',
+      likes: 175,
+      comments: 50,
+      image: 'https://picsum.photos/1080/609',
+      user: {
+        name: 'Mehmet',
+        avatar: 'https://randomuser.me/api/portraits/men/2.jpg',
+      },
+    },
+    {
+      id: 4,
+      description: 'React Native ile karmaşık kullanıcı arayüzleri oluşturma teknikleri. Tasarım ve animasyon örnekleri.',
+      date: '2024-06-05 09:15:00',
+      likes: 220,
+      comments: 60,
+      image: 'https://picsum.photos/1080/610',
+      user: {
+        name: 'Elif',
+        avatar: 'https://randomuser.me/api/portraits/women/2.jpg',
+      },
+    },
+    {
+      id: 5,
+      description: 'React Native ile veri yönetimi ve API entegrasyonu. Redux ve Axios kullanımı.',
+      date: '2024-06-06 16:45:00',
+      likes: 190,
+      comments: 40,
+      image: 'https://picsum.photos/1080/611',
+      user: {
+        name: 'Ahmet',
+        avatar: 'https://randomuser.me/api/portraits/men/3.jpg',
+      },
+    },
+    {
+      id: 6,
+      description: 'React Native ile mobil uygulama geliştirmek için harika bir rehber.',
+      date: '2024-06-07 10:00:00',
+      likes: 210,
+      comments: 35,
+      image: 'https://picsum.photos/1080/612',
+      user: {
+        name: 'Selin',
+        avatar: 'https://randomuser.me/api/portraits/women/3.jpg',
+      },
+    },
+    {
+      id: 7,
+      description: 'React Native ile performanslı mobil uygulamalar geliştirmek için ipuçları ve püf noktaları.',
+      date: '2024-06-08 11:30:00',
+      likes: 180,
+      comments: 25,
+      image: 'https://picsum.photos/1080/613',
+      user: {
+        name: 'Kemal',
+        avatar: 'https://randomuser.me/api/portraits/men/4.jpg',
+      },
+    },
+    {
+      id: 8,
+      description: 'React Native ile karmaşık kullanıcı arayüzleri oluşturma teknikleri. Tasarım ve animasyon örnekleri.',
+      date: '2024-06-09 12:00:00',
+      likes: 240,
+      comments: 55,
+      image: 'https://picsum.photos/1080/614',
+      user: {
+        name: 'Zeynep',
+        avatar: 'https://randomuser.me/api/portraits/women/4.jpg',
+      },
+    },
+    {
+      id: 9,
+      description: 'Yeni başlayanlar için React Native rehberi. Adım adım proje oluşturma ve temel kavramlar.',
+      date: '2024-06-10 09:45:00',
+      likes: 230,
+      comments: 65,
+      image: 'https://picsum.photos/1080/615',
+      user: {
+        name: 'Can',
+        avatar: 'https://randomuser.me/api/portraits/men/5.jpg',
+      },
+    },
+    {
+      id: 10,
+      description: 'React Native ile veri yönetimi ve API entegrasyonu. Redux ve Axios kullanımı.',
+      date: '2024-06-11 14:20:00',
+      likes: 195,
+      comments: 50,
+      image: 'https://picsum.photos/1080/616',
+      user: {
+        name: 'Emine',
+        avatar: 'https://randomuser.me/api/portraits/women/5.jpg',
+      },
+    },
+    {
+      id: 11,
+      description: 'React Native ile performanslı mobil uygulamalar geliştirmek için ipuçları ve püf noktaları.',
+      date: '2024-06-12 15:30:00',
+      likes: 185,
+      comments: 60,
+      image: 'https://picsum.photos/1080/617',
+      user: {
+        name: 'Murat',
+        avatar: 'https://randomuser.me/api/portraits/men/6.jpg',
+      },
+    },
+    {
+      id: 12,
+      description: 'React Native ile karmaşık kullanıcı arayüzleri oluşturma teknikleri. Tasarım ve animasyon örnekleri.',
+      date: '2024-06-13 13:10:00',
+      likes: 220,
+      comments: 45,
+      image: 'https://picsum.photos/1080/618',
+      user: {
+        name: 'Ayşe',
+        avatar: 'https://randomuser.me/api/portraits/women/6.jpg',
+      },
+    },
+    {
+      id: 13,
+      description: 'Yeni başlayanlar için React Native rehberi. Adım adım proje oluşturma ve temel kavramlar.',
+      date: '2024-06-14 08:55:00',
+      likes: 250,
+      comments: 70,
+      image: 'https://picsum.photos/1080/619',
+      user: {
+        name: 'Osman',
+        avatar: 'https://randomuser.me/api/portraits/men/7.jpg',
+      },
+    },
+    {
+      id: 14,
+      description: 'React Native ile mobil uygulama geliştirmek için harika bir rehber.',
+      date: '2024-06-15 11:40:00',
+      likes: 205,
+      comments: 38,
+      image: 'https://picsum.photos/1080/620',
+      user: {
+        name: 'Fatma',
+        avatar: 'https://randomuser.me/api/portraits/women/7.jpg',
+      },
+    },
+    {
+      id: 15,
+      description: 'React Native ile veri yönetimi ve API entegrasyonu. Redux ve Axios kullanımı.',
+      date: '2024-06-16 16:00:00',
+      likes: 225,
+      comments: 48,
+      image: 'https://picsum.photos/1080/621',
+      user: {
+        name: 'Eren',
+        avatar: 'https://randomuser.me/api/portraits/men/8.jpg',
+      },
+    }
+  ];
+  
