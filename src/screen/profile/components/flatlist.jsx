@@ -19,10 +19,6 @@ const imageSize = (screenWitdth-(columnNum + 1)*2)/columnNum;
                     <Image source={{ uri: item.image }}
                      style={{ width: imageSize, height: imageSize, margin:1 }} />
                 </TouchableOpacity>
-                <TouchableOpacity>
-                <Image source={{ uri: item.image }}
-                 style={{ width: imageSize, height: imageSize, margin:1 }} />
-            </TouchableOpacity>
             )} />
             
 
