@@ -4,7 +4,7 @@ import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
 const ProfileBio = () => {
   return (
     <View style ={styles.bio}>
-      <Text style={styles.name}>UserName</Text>
+      <Text style={styles.name}>Emile Martinez</Text>
       <Text style={styles.lorem} >Lorem ipsum dolor sit amet consectetur adipisicing elit.
          Nobis fugit ab dignissimos sunt eius molestiae laboriosam, blanditiis, officiis vitae rerum enim, ex quibusdam. 
         Dolorem maiores quo facilis beatae quae. Quaerat.</Text>
