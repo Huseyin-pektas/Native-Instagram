@@ -5,7 +5,7 @@ import HomeScreen from './screen/Home';
 import SearchScreen from './screen/Search';
 import ReelScreen from './screen/Reel';
 import ShopScreen from './screen/Shop';
-import ProfileScreen from './screen/Profile';
+import ProfileScreen from './screen/profile/Profile';
 import { Avatar, Reelfield } from './Icon';
 import avatar from "./../assets/Avatar.png"
 

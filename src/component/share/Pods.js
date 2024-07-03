@@ -23,7 +23,7 @@ const Pods = ({ post }) => {
                         <Text style={styles.text} >{post?.user?.name}</Text>
                     </View>
 
-                    <Icon name="ellipsis1" size={30} color="black" />
+                    <Icon name="ellipsis1" size={30} color="black" style={{marginLeft:"auto"}}/>
                 </View>
             </ScrollView>
             <FitImage src={post?.image} />
@@ -42,7 +42,7 @@ const Pods = ({ post }) => {
 
                     </View>
                     <TouchableOpacity>
-                        <IconI name="bookmark" color="red" size={30} />
+                        <IconI name="bookmark" color="black" size={30} />
 
                     </TouchableOpacity>
                 </View>
@@ -55,7 +55,7 @@ const Pods = ({ post }) => {
                     numberOfLines={1}
                     seeMoreStyle={{color: "#999"}}
                     >
-                    <Text  style={{fontSize:16,fontWeight:"bold", }}> 
+                    <Text  style={{fontSize:16,fontWeight:"bold", marginLeft:10}}> 
                 {post?.user.name}{`     `}{post?.description}
                     {/* Bu resim harika ya, çok beğendim.
                         Daha önce de resim görmüştüm ama
@@ -67,13 +67,13 @@ const Pods = ({ post }) => {
                     {
                         post?.comments > 0 && (
                             <TouchableOpacity>
-                                <Text style={{opacity:0.5,marginTop:7}} >View all {post?.comments} comments</Text>
+                                <Text style={{opacity:0.5,marginTop:7,marginLeft:10}} >View all {post?.comments} comments</Text>
                             </TouchableOpacity>
                         )
                     }
                     <View>
-                        <Text>{post?.date}</Text>
-                        <Text>See translation</Text>
+                        <Text style={{marginLeft:10}}>{post?.date}</Text>
+                        <Text style={{marginTop:10,fontWeight:"bold",marginLeft:10}}>See translation</Text>
                     </View>
 
                 </View>
@@ -101,7 +101,7 @@ const styles = StyleSheet.create({
         width: 30,
         height: 30,
         marginRight: 10,
-        borderRadius: 30
+        borderRadius: 15
     },
     text: {
         fontSize: 17,
